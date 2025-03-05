@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "React Chrome Extension",
+    "name": "Tab whisperer",
     "version": "1.0.0",
-    "description": "A simple React app as a Chrome extension",
+    "description": "Manage and save your browser sessions easily!",
     "action": {
       "default_popup": "index.html"
     },
-    "permissions": []
-  }
+    "permissions": ["tabs", "storage"]
+}
